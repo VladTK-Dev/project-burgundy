@@ -1,0 +1,239 @@
+.wine-content {
+  width: 100%;
+  max-width: 1440px;
+  height: 1035px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d0d4d8;
+  position: relative;
+  top: -50px;
+  &__header {
+    width: 305px;
+    height: 38px;
+    margin: 0 auto;
+    font-family: Georgia, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4e5665;
+  }
+  &__icon {
+    width: 17px;
+    height: 12px;
+    background-color: #8c001a;
+  }
+  &__header-text {
+    width: 180px;
+    height: 28px;
+    margin: 10px auto;
+    font-family: AvenirNext, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #8c001a;
+  }
+  &__image {
+    width: 100%;
+    max-width: 1170px;
+    height: 330px;
+    margin: 80px auto 60px auto;
+  }
+  &__description {
+    width: 100%;
+    max-width: 970px;
+    height: 112px;
+    margin: 30px auto;
+    font-family: AvenirNext, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #505050;
+    position: relative;
+    top: 350px;
+  }
+}
+
+.hover-point__glass {
+  width: 32px;
+  height: 32px;
+  background-color: #bb0027;
+  border-radius: 50%;
+  opacity: 0.9;
+  position: absolute;
+  margin: -700px auto 0 550px;
+  &-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #8c001a;
+    border-radius: 50%;
+    position: absolute;
+    margin: 11px auto 0 11px;
+  }
+}
+.hover-point__label {
+  width: 32px;
+  height: 32px;
+  background-color: #bb0027;
+  border-radius: 50%;
+  opacity: 0.9;
+  position: absolute;
+  margin: -538px auto 0 630px;
+  &-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #8c001a;
+    border-radius: 50%;
+    position: absolute;
+    margin: 11px auto 0 11px;
+  }
+}
+.hover-point__taste {
+  width: 32px;
+  height: 32px;
+  background-color: #bb0027;
+  border-radius: 50%;
+  opacity: 0.9;
+  position: absolute;
+  margin: -430px auto 0 505px;
+  &-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #8c001a;
+    border-radius: 50%;
+    position: absolute;
+    margin: 11px auto 0 11px;
+  }
+}
+.hover-point__glass:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+  .dropdown__glass {
+    display: block;
+  }
+}
+
+.hover-point__label:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+  .dropdown__label {
+    display: block;
+  }
+}
+
+.hover-point__taste:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.2s;
+  .dropdown__taste {
+    display: block;
+  }
+}
+
+.dropdown__glass {
+  display: none;
+  width: 80px;
+  height: 28px;
+  margin: -162px 0 0 -190px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal ;
+  font-family: Georgia, sans-serif;
+  color: black;
+}
+
+.dropdown__label {
+  display: none;
+  width: 80px;
+  height: 28px;
+  margin: -162px 0 0 140px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal ;
+  font-family: Georgia, sans-serif;
+  color: black;
+}
+
+.dropdown__taste {
+  display: none;
+  width: 80px;
+  height: 28px;
+  margin: -264px 0 0 255px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal ;
+  font-family: Georgia, sans-serif;
+  color: black;
+}
+
+.glass-line {
+  margin: 70px 57.5px auto;
+  width: 170px;
+  height: 1px;
+  transform: rotate(45deg);
+  background-color: #8c001a;
+  transition: 0.5s;
+  &__h {
+    margin: -62px auto 0 -7px;
+    width: 90px;
+    height: 1px;
+    background-color: #8c001a;
+    transition: 0.5s;
+  }
+}
+
+.label-line {
+  margin: 70px 0 0 -145px;
+  width: 170px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-color: #8c001a;
+  transition: 0.5s;
+  &__h {
+    margin: -61px 0 0 0;
+    width: 90px;
+    height: 1px;
+    background-color: #8c001a;
+    transition: 0.5s;
+  }
+}
+
+.taste-line {
+  margin: 121px 0 0 -281px;
+  width: 309px;
+  height: 1px;
+  transform: rotate(-45deg);
+  background-color: #8c001a;
+  transition: 0.5s;
+  &__h {
+    margin: -110px auto 0 -17px;
+    width: 90px;
+    height: 1px;
+    background-color: #8c001a;
+    transition: 0.5s;
+  }
+}
+.bottle {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 315px;
+}
+.shadow {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -300px;
+  opacity: 0.3;
+  width: 240px;
+  height: 30px;
+}
